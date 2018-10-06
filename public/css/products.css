@@ -1,0 +1,37 @@
+.tablecontainer {
+  width: 90%;
+}
+
+.prodtable {
+  background-color: #F8F9FA;
+  border-radius: 5px;
+}
+
+.prodcontain {
+  margin-top: 40px;
+}
+ .input-group {
+  width: 100%;
+  min-width: 150px;
+}
+
+#heading {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.headrow {
+  background-color: #d2d9df;
+}
+
+.pname {
+  width: 30%;
+}
+.data {
+  font-size: 17px;
+}
+
+.data:hover {
+  background-color: #EEF3F6;
+
+}
