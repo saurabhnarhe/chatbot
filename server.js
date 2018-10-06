@@ -1,13 +1,11 @@
 require('dotenv').config()
 var express = require('express')
     , exphbs = require('express-handlebars')
-    // , organ = require('morgan')
     , bodyParser = require('body-parser')
     , methodOverride = require('method-override')
     , app = express()
     , port = process.env.PORT || 8000
     , router = express.Router()
-    // , moment = require("moment");
 var morgan = require("morgan")
 var google = require("google")
 var cookieParser = require('cookie-parser')
@@ -40,7 +38,6 @@ connection.connect(function (err) {
 
 var session = require('express-session');
 // const request = require("request");
-const _ = require("lodash")
 
 /* BOT STUFF */
 const RiveScript = require("rivescript")
