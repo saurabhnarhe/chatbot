@@ -16,10 +16,10 @@ google.resultsPerPage = 5
 // mysql connection
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host: "sql12.freemysqlhosting.net",
-    user: "sql12260036",
-    password: "8kQe1bVjKG",
-    database: "sql12260036",
+    host: "remotemysql.com",
+    user: "nn0vY4oDNT",
+    password: "r6yF69OZLm",
+    database: "nn0vY4oDNT",
     // host: "35.201.179.83",
     // user: "root",
     // password: "hello1234",
